@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 public class Singelton
 {
 	private static Singelton ourInstance=new Singelton();

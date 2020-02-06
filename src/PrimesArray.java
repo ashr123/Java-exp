@@ -22,7 +22,7 @@ public class PrimesArray
 				if (number%(Integer)primes.get(i)==0)
 					isPrime=false;
 			if (isPrime)
-				primes.add(new Integer(number));
+				primes.add(number);
 		}
 		return primes;
 	}
